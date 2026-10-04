@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+body {
+  background-color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  overflow: hidden;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.829);
+}
+
+.cursor {
+  height: 70px;
+  width: 70px;
+  background: radial-gradient(white 10%, yellow 20%, blue 20%, red);
+  border-radius: 50%;
+  position: absolute;
+  top: -35px;
+  left: -35px;
+  filter: blur(10px);
+}/*# sourceMappingURL=style.css.map */
